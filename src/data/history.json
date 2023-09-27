@@ -1,0 +1,10 @@
+[
+    {
+        "role": "Student",
+        "organisation": "Edx Full-Stack Web Development Bootcamp - University of Oregon",
+        "startDate": "Jan, 2023",
+        "endDate": "July, 2023",
+        "experiences": ["Build programming skills up for entire Full-Stack development process, develop applications in a group setting, build portfolio to showcase skills learned"],
+        "imageSrc": "history/uoIcon2.png"
+    }
+]
