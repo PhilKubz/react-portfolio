@@ -1,26 +1,18 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "projects/project.png",
-        "description": "Sample Project",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "title": "National Park Resource",
+        "imageSrc": "projects/nationalparkimage.png",
+        "description": "Application to help users find out information on National PArks in a given weather, as well as a 5 day forecast to help plan ahead",
+        "skills": ["HTML", "CSS", "JS", "API"],
+        "demo": "https://philkubz.github.io/NationalPark-Resource/",
+        "source": "https://github.com/PhilKubz/NationalPark-Resource"
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/project.png",
-        "description": "Sample Project",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-    },
-    {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "Sample Project",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "title": "Game Concept Projects",
+        "imageSrc": "projects/godotengineimage.png",
+        "description": "Concept Design in order to implement new techniques and design mechanics/ideas for future gaming projects",
+        "skills": ["Godot", "Scripting", "GDScript", "GitHub"],
+        "demo": "",
+        "source": "https://github.com/PhilKubz/concept_projects"
     }
 ]
