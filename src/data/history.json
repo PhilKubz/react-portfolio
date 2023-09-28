@@ -4,7 +4,15 @@
         "organisation": "Edx Full-Stack Web Development Bootcamp - University of Oregon",
         "startDate": "Jan, 2023",
         "endDate": "July, 2023",
-        "experiences": ["Build programming skills up for entire Full-Stack development process, develop applications in a group setting, build portfolio to showcase skills learned"],
-        "imageSrc": "history/uoIcon2.png"
+        "experiences": ["Build programming skills up for entire Full-Stack development process", "Develop applications in a group-based setting", "Build a portfolio to showcase skills learned"],
+        "imageSrc": "history/uoIcon.png"
+    },
+    {
+        "role": "Junior Game Developer Studies",
+        "organisation": "Online Courses / Self-Study",
+        "startDate": "July, 2023",
+        "endDate": "Present",
+        "experiences": ["Acquire new skills and design programs/games to implement newly learned skills in a unique way", "Continuing to develop and finish game projects to build a portfolio of work"],
+        "imageSrc": "history/gamingicon.png"
     }
 ]

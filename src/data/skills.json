@@ -12,12 +12,24 @@
         "imageSrc": "skills/react.png"
     },
     {
+        "title": "GitHub",
+        "imageSrc": "skills/githublogo.png"
+    },
+    {
+        "title": "Godot",
+        "imageSrc": "skills/godot.png" 
+    },
+    {
+        "title": "Unreal Engine",
+        "imageSrc": "skills/unreallogo.png" 
+    },
+    {
         "title": "Node",
         "imageSrc": "skills/node.png"
     },
     {
-        "title": "GraphQL",
-        "imageSrc": "skills/graphql.png"
+        "title": "MySQL",
+        "imageSrc": "skills/mysql.png" 
     },
     {
         "title": "MongoDB",
