@@ -19,7 +19,7 @@
 }
 
 .text p {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -41,7 +41,7 @@
 .link a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 1.5px;
 }
@@ -49,7 +49,7 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column;
-        gap: 23px;
+        gap: 25px;
     }
 
     .text {
@@ -58,7 +58,19 @@
         align-items: center;
     }
 
+    .text h2 {
+        font-size: 60px;
+    }
+
+    .text p {
+        font-size: 25px;
+    }
+
     .links {
         align-items: center;
+    }
+
+    .links a {
+        font-size: 18px;
     }
 }
