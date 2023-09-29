@@ -2,7 +2,7 @@
     {
         "title": "National Park Resource",
         "imageSrc": "projects/nationalparkimage.png",
-        "description": "Application to help users find out information on National PArks in a given weather, as well as a 5 day forecast to help plan ahead",
+        "description": "Application to help users find out information on National Parks in a chosen area, as well as a 5 day forecast",
         "skills": ["HTML", "CSS", "JS", "API"],
         "demo": "https://philkubz.github.io/NationalPark-Resource/",
         "source": "https://github.com/PhilKubz/NationalPark-Resource"
