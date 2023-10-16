@@ -16,14 +16,6 @@
         "imageSrc": "skills/githublogo.png"
     },
     {
-        "title": "Godot",
-        "imageSrc": "skills/godot.png" 
-    },
-    {
-        "title": "Unreal Engine",
-        "imageSrc": "skills/unreallogo.png" 
-    },
-    {
         "title": "Node",
         "imageSrc": "skills/node.png"
     },

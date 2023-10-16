@@ -8,11 +8,19 @@
         "source": "https://github.com/PhilKubz/NationalPark-Resource"
     },
     {
-        "title": "Game Concept Projects",
-        "imageSrc": "projects/godotengineimage.png",
-        "description": "Concept Design in order to implement new techniques and design mechanics/ideas for future gaming projects",
-        "skills": ["Godot", "Scripting", "GDScript", "GitHub"],
-        "demo": "",
-        "source": "https://github.com/PhilKubz/concept_projects"
+        "title": "Work Day Scheduler",
+        "imageSrc": "projects/schedulerscreen.png.png",
+        "description": "Simple design to demonstrate API integration allowing for a daily task setting tool",
+        "skills": ["API", "JavaScript", "HTML", "CSS"],
+        "demo": "https://philkubz.github.io/challenge-05-scheduler/",
+        "source": "https://github.com/PhilKubz/challenge-05-scheduler"
+    },
+    {
+        "title": "React Portfolio",
+        "imageSrc": "projects/portfolioscreenshot.png",
+        "description": "The site that you are currently browsing! Devleoped to showcase my ongoing professional developments",
+        "skills": ["React", "JavaScript", "CSS"],
+        "demo": "https://philip-kubisz-portfolio.netlify.app/",
+        "source": "https://github.com/PhilKubz/react-portfolio"
     }
 ]

@@ -8,11 +8,11 @@
         "imageSrc": "history/uoIcon.png"
     },
     {
-        "role": "Junior Game Developer Studies",
+        "role": "Studying AWS Cloud Certifications",
         "organisation": "Online Courses / Self-Study",
-        "startDate": "July, 2023",
+        "startDate": "September, 2023",
         "endDate": "Present",
-        "experiences": ["Acquire new skills and design programs/games to implement newly learned skills in a unique way", "Continuing to develop and finish game projects to build a portfolio of work"],
-        "imageSrc": "history/gamingicon.png"
+        "experiences": ["Goal: Associate Level certifications (Solutions Architect and Developer", "Studying now for certification exams", "Continue furthering understanding of OSI Networks, IoT, and how AWS utilizes this technology"],
+        "imageSrc": "history/AWSlogomedi.png"
     }
 ]
