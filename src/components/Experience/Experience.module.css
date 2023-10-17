@@ -36,6 +36,24 @@
     gap: 11px;
 }
 
+.skill:hover {
+    animation: floating 1s infinite; /* Apply the 'floating' animation on hover */
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
 .skillImageContainer {
     background-color: var(--color-secondary);
     border-radius: 100%;

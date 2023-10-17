@@ -6,9 +6,13 @@
     border-radius: 10px;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18ppx 24px;
-    max-width: 345px;
+    padding: 14px 24px;
+    max-width: 380px;
+    margin: 20px 12px;
+    height: 660px; /* Set a specific height for the container */
+    overflow: hidden; /* Ensure no overflow */
 }
+
 
 .image {
     margin-bottom: 26px;
@@ -22,6 +26,7 @@
 
 .description {
     margin-top: 6px;
+    margin-bottom: auto;
     font-size: 25px;
     font-weight: 400;
 }
@@ -34,6 +39,7 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
+    margin: 4px 6px;
 }
 
 .skill {
@@ -41,7 +47,12 @@
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 2px 22px;
+    margin: 12px 0px;
+    width: 45%;
 }
 
 .links {
@@ -59,4 +70,18 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
+}
+
+@keyframes hoverScale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.link:hover {
+    /* Specific hover effect for the "Demo" link */
+    animation: hoverScale 0.3s ease-in-out forwards;
 }

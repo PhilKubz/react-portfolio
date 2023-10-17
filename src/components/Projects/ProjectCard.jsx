@@ -23,7 +23,7 @@ export const ProjectCard = ({project :{title, imageSrc, description, skills, dem
     })}
     </ul>
     <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        <a href={demo} className={`${styles.link} ${styles.demo}`} >
             Demo
         </a>
         <a href={source} className={styles.link}>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./Contact.module.css"
+import { ScrollToTopButton } from "./ScrollToTopButton";
 import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
@@ -25,6 +26,9 @@ export const Contact = () => {
                 <a href="https://github.com/PhilKubz?tab=repositories">GitHub/PhilKubz</a>
             </li>
         </ul>
+        <div className={styles.buttons}>
+            <ScrollToTopButton />
+        </div>
     </footer>
     );
 };
