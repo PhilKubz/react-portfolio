@@ -17,5 +17,6 @@ export const Hero = () => {
             <div className={styles.bottomBlur4}/>
             <div className={styles.bottomBlur5}/>
             <div className={styles.bottomBlur6}/>
+            <div className={styles.bottomBlur7}/>
     </section>;
 };
