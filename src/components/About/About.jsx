@@ -22,18 +22,18 @@ export const About = () => {
             </div>
             </li>
             <li className={styles.aboutItem}>
-              <img src={getImageUrl("about/serverIcon.png")} alt="server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Cloud Development</h3>
-              <p>I am currently studying for multiple AWS certifications in order to develop software and utilize cloud functionality
-              </p>
-            </div>
-            </li>
-            <li className={styles.aboutItem}>
               <img src={getImageUrl("about/uiIcon.png")} alt="ui icon" />
             <div className={styles.aboutItemText}>
               <h3>Full-Stack Web Developer</h3>
               <p>I have designed multiple applications that utilize the full-stack web development process
+              </p>
+            </div>
+            </li>
+            <li className={styles.aboutItem}>
+              <img src={getImageUrl("about/serverIcon.png")} alt="server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Cloud Development</h3>
+              <p>I am currently studying for multiple AWS certifications in order to develop software and utilize cloud functionality
               </p>
             </div>
             </li>

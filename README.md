@@ -28,6 +28,7 @@ A portfolio desiged with React to showcase my ongoing professional developments
     - Utilization of stored data in JSON format
 
 
+
 - CSS
     - Responsive web design
     - Importing Font styling

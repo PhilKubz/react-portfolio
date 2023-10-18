@@ -4,7 +4,7 @@
         "organisation": "Edx Full-Stack Web Development Bootcamp - University of Oregon",
         "startDate": "Jan, 2023",
         "endDate": "July, 2023",
-        "experiences": ["Build programming skills up for entire Full-Stack development process", "Develop applications in a group-based setting", "Build a portfolio to showcase skills learned"],
+        "experiences": ["Build programming skills up for the entire Full-Stack development process", "Develop applications in a group-based setting", "Build a portfolio to showcase skills learned"],
         "imageSrc": "history/uoIcon.png"
     },
     {
@@ -12,7 +12,7 @@
         "organisation": "Online Courses / Self-Study",
         "startDate": "September, 2023",
         "endDate": "Present",
-        "experiences": ["Goal: Associate Level certifications (Solutions Architect and Developer", "Studying now for certification exams", "Continue furthering understanding of OSI Networks, IoT, and how AWS utilizes this technology"],
+        "experiences": ["Goal: Associate Level certifications (Solutions Architect and Developer", "Studying now for certification exams", "Continue furthering my understanding of OSI Networks, IoT, and how AWS utilizes this technology"],
         "imageSrc": "history/AWSlogomedi.png"
     }
 ]

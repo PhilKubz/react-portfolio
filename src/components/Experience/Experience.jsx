@@ -44,6 +44,8 @@ export const Experience = () => {
              })}
         </ul>
       </div>
+      <div className={styles.leftBlur}/>
+      <div className={styles.rightBlur}/>
     </section>
     )
 };

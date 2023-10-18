@@ -9,6 +9,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    max-width: 100vw;
 }
 
 .content {
@@ -25,7 +26,7 @@
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(
-        90deg, rgba(255, 255, 255, 1) 70%, 
+        90deg, rgba(255, 255, 255, 1) 80%, 
         rgba(255, 255, 255, 0) 120%
         );
     -webkit-text-fill-color: transparent;
@@ -34,13 +35,14 @@
 
 .description {
     font-size: 30px;
-    font-family: robot;
+    font-family: var(--font-roboto);
     margin-bottom: 52px;
+    max-width: 550px;
 }
 
 
 .heroImg {
-    width: 50%;
+    max-width: 50%;
     z-index: 1;
 
     animation-name: floating;
@@ -69,7 +71,7 @@
     height: 40vw;
     min-width: 350px;
     min-width: 350px;
-    top: -128px;
+    top: -10%;
     left: -10vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
@@ -85,7 +87,7 @@
     min-width: 350px;
     top: 246px;
     right: -25vw;
-    border-radius: px;
+    border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
@@ -98,5 +100,9 @@
 
     .content {
         align-items: center;
+    }
+
+    .heroImg {
+        margin-bottom: 20px;
     }
 }

@@ -3,8 +3,9 @@
 .container {
     margin-top: 76px;
     color: var(--color-text);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    max-width: 100vw;
 }
 
 .title {
@@ -12,10 +13,13 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 2;
 }
 
+
 .projects {
-    margin-top: 37px;
+    margin-top: 35px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,4 +27,96 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
+}
+
+
+.leftBlur {
+    position: absolute;
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: 400%;
+    left: -20vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.rightBlur {
+    position: absolute;
+    width: 50vw;
+    height: 40vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: 345%;
+    left: 45vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 830px) {
+    .title {
+        padding: 0px 30px;
+    }
+
+    .projects {
+        margin-top: 0px;
+    }
+
+    .leftBlur {
+        top: 385%;
+        left: -20vw;
+    }
+    
+    .rightBlur {
+        top: 305%;
+        left: 55vw;
+    }
+
+    .leftBlur2 {
+        position: absolute;
+        width: 50vw;
+        height: 40vw;
+        min-width: 350px;
+        min-width: 350px;
+        top: 600%;
+        left: -20vw;
+        border-radius: 764px;
+        background: rgba(25, 55, 109, 0.7);
+        filter: blur(100px);
+        z-index: 0;
+    }
+    
+    .rightBlur2 {
+        position: absolute;
+        width: 50vw;
+        height: 40vw;
+        min-width: 350px;
+        min-width: 350px;
+        top: 535%;
+        left: 55vw;
+        border-radius: 764px;
+        background: rgba(25, 55, 109, 0.7);
+        filter: blur(100px);
+        z-index: 0;
+    }
+
+    .rightBlur3 {
+        position: absolute;
+        width: 50vw;
+        height: 40vw;
+        min-width: 350px;
+        min-width: 350px;
+        top: 740%;
+        left: 55vw;
+        border-radius: 764px;
+        background: rgba(25, 55, 109, 0.7);
+        filter: blur(100px);
+        z-index: 0;
+    }
 }

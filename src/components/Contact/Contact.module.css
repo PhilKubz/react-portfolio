@@ -3,14 +3,17 @@
 .container {
     color: var(--color-text);
     margin-top: 120px;
-    background-color: var(--color-secondary);
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
-    padding: 58px 10%;
+    padding: 30px 10%;
     gap: 10px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 2;
 }
 
 .text h2 {
@@ -61,6 +64,7 @@
     .container {
         flex-direction: column;
         gap: 25px;
+        padding: 12px 10%;
     }
 
     .text {
@@ -70,11 +74,11 @@
     }
 
     .text h2 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .text p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .links {
@@ -82,6 +86,6 @@
     }
 
     .links a {
-        font-size: 18px;
+        font-size: 16px;
     }
 }

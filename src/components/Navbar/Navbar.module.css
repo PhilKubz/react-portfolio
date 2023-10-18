@@ -8,6 +8,7 @@
     padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
+    max-width: 100vw;
 }
 
 .title {
@@ -23,7 +24,7 @@
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 22px;
     list-style: none;
 }
 

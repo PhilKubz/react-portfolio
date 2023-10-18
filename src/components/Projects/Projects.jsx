@@ -13,6 +13,11 @@ export const Projects = () => {
                         return <ProjectCard key={id} project={project} />;
                 })}
             </div>
+            <div className={styles.leftBlur}/>
+            <div className={styles.rightBlur}/>
+            <div className={styles.leftBlur2}/>
+            <div className={styles.rightBlur2}/>
+            <div className={styles.rightBlur3}/>
         </section>
     );
 };
