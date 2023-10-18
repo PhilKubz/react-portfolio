@@ -15,6 +15,8 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 2;
 }
 
 .content {
@@ -22,6 +24,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 14px;
+    padding-top: 60px;
 }
 
 .skills {
@@ -84,6 +87,14 @@
     gap: 40px;
 }
 
+.historyItemContent {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 17px;
+    width: 100%;
+  }
+
 .historyItem {
     display: flex;
     flex-direction: row;
@@ -92,7 +103,7 @@
     background: #19376d;
     background: linear-gradient(
     #19376d 50%,
-    rgba(25, 55, 109, 0) 90%
+    rgba(25, 55, 109, 0) 100%
     );
     border-radius: 10px;
     box-shadow: 0 12px 22px 0 #04152d;
@@ -102,7 +113,7 @@
 }
 
 .historyItem img {
-    width: 50px;
+    width: 80px;
     border-radius: 6px;
 }
 
@@ -113,7 +124,7 @@
 .historyitemDetails h3 {
     font-size: 40px;
     font-weight: 500;
-
+    max-width: 100vw;
 }
 
 .historyitemDetails p {
@@ -128,14 +139,14 @@
     list-style-type: disc;
     margin-left: 17px;
 }
-
+/*
 .leftBlur {
     position: absolute;
     width: 50vw;
     height: 40vw;
     min-width: 350px;
     min-width: 350px;
-    top: 270%;
+    top: 120%;
     left: -20vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
@@ -150,14 +161,20 @@
     min-width: 350px;
     min-width: 350px;
     top: 180%;
-    left: 45vw;
+    left: 15vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: orange;
     filter: blur(100px);
     z-index: 0;
 }
+*/
 
 @media screen and (max-width: 830px) {
+
+    .container {
+        margin-top: 80px;
+    }
+
     .content {
         flex-direction: column;
         align-items: center;
@@ -165,13 +182,18 @@
     }
 
     .title {
-        padding: 0px 30px;
+        padding: 15px 30px;
     }
 
     .skills {
         width: 100%;
         flex-direction: row;
         justify-content: center;
+        padding-top: 0px;
+    }
+
+    .skill {
+        scale: 90%;
     }
 
     .history {
@@ -183,9 +205,13 @@
         margin-bottom: 18px;
     }
 
+    .historyItem img {
+        display: none;
+    }
+
     .historyItemDetails ul {
         margin-top: 6px;
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 17px;
         margin-bottom: 6px;
     }
@@ -193,7 +219,7 @@
     .historyItemDetails li {
         margin-bottom: 10px;
     }
-
+    /* 
     .leftBlur {
         top: 240%;
         left: -20vw;
@@ -201,6 +227,7 @@
     
     .rightBlur {
         top: 160%;
-        left: 60vw;
+        left: 10vw;
     }
+    */
 }

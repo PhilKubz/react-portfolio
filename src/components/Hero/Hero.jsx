@@ -12,5 +12,10 @@ export const Hero = () => {
            <img src={getImageUrl("hero/heroImage.png")} alt="hero image of me" className={styles.heroImg}/>
             <div className={styles.topBlur}/>
             <div className={styles.bottomBlur}/>
+            <div className={styles.bottomBlur2}/>
+            <div className={styles.bottomBlur3}/>
+            <div className={styles.bottomBlur4}/>
+            <div className={styles.bottomBlur5}/>
+            <div className={styles.bottomBlur6}/>
     </section>;
 };

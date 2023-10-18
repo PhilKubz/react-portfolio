@@ -37,14 +37,14 @@
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
-    max-width: 550px;
+    max-width: 900px;
 }
 
 
 .heroImg {
-    max-width: 50%;
+    max-width: 60%;
     z-index: 1;
-
+    padding-left: 100px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -93,6 +93,35 @@
     z-index: 0;
 }
 
+.bottomBlur2 {
+    position: absolute;
+    width: 70vw;
+    height: 30vw;
+    min-width: 250px;
+    min-width: 350px;
+    top: 1206px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur3 {
+    position: absolute;
+    width: 70vw;
+    height: 30vw;
+    min-width: 250px;
+    min-width: 350px;
+    top: 1906px;
+    right: 40vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
@@ -104,5 +133,65 @@
 
     .heroImg {
         margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    .title {
+        font-size: 52px;
+    }
+
+    .description {
+        font-size: 20px;
+        font-family: var(--font-roboto);
+        margin-bottom: 42px;
+    }
+
+    .bottomBlur4 {
+        position: absolute;
+        width: 70vw;
+        height: 30vw;
+        min-width: 250px;
+        min-width: 350px;
+        top: 2606px;
+        right: -25vw;
+        border-radius: 764px;
+        background: rgba(25, 55, 109, 0.7);
+        filter: blur(100px);
+        z-index: 0;
+    }
+
+    .bottomBlur5 {
+        position: absolute;
+        width: 70vw;
+        height: 30vw;
+        min-width: 250px;
+        min-width: 350px;
+        top: 3550px;
+        right: 40vw;
+        border-radius: 764px;
+        background: rgba(25, 55, 109, 0.7);
+        filter: blur(100px);
+        z-index: 0;
+    }
+
+    .bottomBlur6 {
+        position: absolute;
+        width: 70vw;
+        height: 30vw;
+        min-width: 250px;
+        min-width: 350px;
+        top: 4206px;
+        right: -25vw;
+        border-radius: 764px;
+        background: rgba(25, 55, 109, 0.7);
+        filter: blur(100px);
+        z-index: 0;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .heroImg {
+        margin-bottom: 20px;
+        padding-left: 400px;
     }
 }

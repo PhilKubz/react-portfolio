@@ -26,26 +26,28 @@ export const Experience = () => {
             {history.map((historyItem, id) => {
                return (
                  <li key={id} className={styles.historyItem}>
-                    <img 
-                      src={getImageUrl(historyItem.imageSrc)}
-                      alt={`${historyItem.organization} Logo`}
-                    />
-                    <div className={styles.historyItemDetails}>
-                      <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                      <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                      <ul>
-                        {historyItem.experiences.map((experience, id) => {
-                          return <li key={id}>{experience}</li>;
-                        })}
-                      </ul>
+                    <div className={styles.historyItemContent}>
+                      <div className={styles.historyItemImage}>
+                      <img 
+                        src={getImageUrl(historyItem.imageSrc)}
+                        alt={`${historyItem.organization} Logo`}
+                      />
+                      </div>
+                      <div className={styles.historyItemDetails}>
+                        <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                        <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                        <ul>
+                          {historyItem.experiences.map((experience, id) => {
+                            return <li key={id}>{experience}</li>;
+                          })}
+                        </ul>
+                      </div>
                     </div>
                  </li>
                 );
              })}
         </ul>
       </div>
-      <div className={styles.leftBlur}/>
-      <div className={styles.rightBlur}/>
     </section>
     )
 };
