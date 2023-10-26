@@ -34,17 +34,17 @@
 
 .skills {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 6px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
-    margin: 4px 6px;
+    margin: 2px 6px;
 }
 
 .skill {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
@@ -52,7 +52,7 @@
     justify-content: center;
     align-items: center;
     padding: 2px 2px;
-    margin: 12px 0px;
+    margin: 6px 0px;
     width: 45%;
     gap: 5px;
 }

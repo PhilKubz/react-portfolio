@@ -1,5 +1,13 @@
 [
     {
+        "title": "Tinder Alike",
+        "imageSrc": "projects/tascreenshotsmall.png",
+        "description": "Clone version of a popular application using sample data to develop a fully deployed MERN Fullstack Application ",
+        "skills": ["React", "CSS", "Express", "MongoDB", "Node.js", "Heroku"],
+        "demo": "https://tinder-alike-6cbd3.web.app/",
+        "source": "https://github.com/PhilKubz/mern-apps"
+    },
+    {
         "title": "National Park Resource",
         "imageSrc": "projects/nationalparkimage.png",
         "description": "Application to help users find out information on National Parks in a chosen area, as well as a 5 day forecast",
@@ -19,7 +27,7 @@
         "title": "React Portfolio",
         "imageSrc": "projects/portfolioscreenshot.png",
         "description": "The site that you are currently browsing! Devleoped to showcase my ongoing professional developments",
-        "skills": ["React", "JavaScript", "CSS"],
+        "skills": ["React", "JavaScript", "CSS", "HTML"],
         "demo": "https://philip-kubisz-portfolio.netlify.app/",
         "source": "https://github.com/PhilKubz/react-portfolio"
     }
