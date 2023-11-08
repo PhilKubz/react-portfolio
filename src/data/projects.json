@@ -1,7 +1,7 @@
 [
     {
         "title": "Tinder Alike",
-        "imageSrc": "projects/tascreenshotsmall.png",
+        "imageSrc": "projects/tascreenshotnew.png",
         "description": "Clone version of a popular application using sample data to develop a fully deployed MERN Fullstack Application ",
         "skills": ["React", "CSS", "Express", "MongoDB", "Node.js", "Heroku"],
         "demo": "https://tinder-alike-6cbd3.web.app/",

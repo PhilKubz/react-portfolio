@@ -12,6 +12,7 @@
     height: 660px;
     overflow: hidden;
     z-index: 2;
+    border: 1px solid white;
 }
 
 
