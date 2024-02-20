@@ -17,23 +17,23 @@ export const About = () => {
             <li className={styles.aboutItem}>
               <img src={getImageUrl("about/uiIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Software Engineer</h3>
-              <p>I am a Junior Software Engineer building my experience in order to best solve problems and create innovative/responsive programs</p>
+              <h3>Software Engineering</h3>
+              <p>Developing my skills in software engineering in order to best solve problems and create innovative/responsive programs</p>
             </div>
             </li>
             <li className={styles.aboutItem}>
               <img src={getImageUrl("about/cursorIcon.png")} alt="ui icon" />
             <div className={styles.aboutItemText}>
-              <h3>Full-Stack Web Developer</h3>
-              <p>I have designed multiple applications that utilize the full-stack web development process
+              <h3>Full-Stack Web Development</h3>
+              <p>I have designed multiple applications that utilize the full-stack web development process and will contine to hone my skills with further applications
               </p>
             </div>
             </li>
             <li className={styles.aboutItem}>
               <img src={getImageUrl("about/serverIcon.png")} alt="server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Cloud Development</h3>
-              <p>I am currently studying for multiple AWS certifications in order to develop software and utilize cloud functionality
+              <h3>Customer Experience</h3>
+              <p>My diverse background has provided me with necessary skills to facilitate a smooth, successful experience for customers
               </p>
             </div>
             </li>

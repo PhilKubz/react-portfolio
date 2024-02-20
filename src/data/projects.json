@@ -2,7 +2,7 @@
     {
         "title": "Tinder Alike",
         "imageSrc": "projects/tascreenshotnew.png",
-        "description": "Clone version of a popular application using sample data to develop a fully deployed MERN Fullstack Application ",
+        "description": "Clone version of a popular application using sample data to develop a fully deployed MERN Fullstack Application",
         "skills": ["React", "CSS", "Express", "MongoDB", "Node.js", "Heroku"],
         "demo": "https://tinder-alike-6cbd3.web.app/",
         "source": "https://github.com/PhilKubz/mern-apps"
@@ -30,5 +30,13 @@
         "skills": ["React", "JavaScript", "CSS", "HTML"],
         "demo": "https://philip-kubisz-portfolio.netlify.app/",
         "source": "https://github.com/PhilKubz/react-portfolio"
+    },
+    {
+        "title": "Order Automator",
+        "imageSrc": "projects/order-automator-sm.png",
+        "description": "Application created to automate special ordering for any company within the database - fast/efficient tool that allows for more time with customers and less error when creating special orders",
+        "skills": ["Python", "PyInstaller"],
+        "demo": "https://github.com/PhilKubz/order-automator",
+        "source": "https://github.com/PhilKubz/order-automator"
     }
 ]
